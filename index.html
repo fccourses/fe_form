@@ -65,7 +65,7 @@
         <legend>Optional Data</legend>
         <label>
           <span>Размер ноги</span>
-          <input type="text" placeholder="Размер ноги" />
+          <input type="text" placeholder="Размер ноги" disabled/>
         </label>
       </fieldset>
 
@@ -101,10 +101,18 @@
 
         <input type="text"name="city" list="city_list">
       </fieldset>
+
+      <fieldset>
+        <legend>Tell me about yourself</legend>
+        <textarea wrap="soft" name="info" id="" cols="30" rows="5"></textarea>
+      </fieldset>
       <label>
         <span>Are you adult?</span>
         <input type="checkbox" name="isAdult" value="true" required />
       </label>
+
+      <progress value="50" max="100"></progress>
+
       <button type="submit">
         <span>Submit form!</span>
       </button>

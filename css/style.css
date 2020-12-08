@@ -28,3 +28,21 @@ label {
 label > input {
   flex: 1;
 }
+
+input:invalid{
+  border: 5px solid red;
+}
+
+input:valid{
+  
+  border: 5px solid green;
+}  
+
+input:checked{
+  margin-left: 50px;
+}
+
+input::placeholder{
+  color: orange;
+  text-indent: 1em;
+}
