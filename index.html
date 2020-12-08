@@ -8,60 +8,83 @@
   </head>
   <body>
     <form method="GET">
-      <label>
-        <span>First name:</span>
-        <input
-          autofocus
-          type="text"
-          placeholder="First name"
-          name="firstName"
-          pattern="^[A-Z][a-z]{2,15}$"
-          required
-        />
-      </label>
+      <fieldset>
+        <legend>Personal info</legend>
+
+        <label>
+          <span>First name:</span>
+          <input
+            autofocus
+            type="text"
+            placeholder="First name"
+            name="firstName"
+            pattern="^[A-Z][a-z]{2,15}$"
+            required
+          />
+        </label>
+
+        <label>
+          <span>Last name:</span>
+          <input
+            autofocus
+            type="text"
+            placeholder="Last name"
+            name="lastName"
+            required
+          />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Auth Data</legend>
+        <label>
+          <span>Email:</span>
+          <input
+            type="email"
+            value="default@email.com"
+            placeholder="Email here"
+            name="email"
+            autocomplete="email"
+            required
+          />
+        </label>
+
+        <label>
+          <span>Password:</span>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            autocomplete="new-password"
+            required
+          />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Optional Data</legend>
+        <label>
+          <span>Размер ноги</span>
+          <input type="text" placeholder="Размер ноги" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose your state</legend>
+        <label
+          >Male
+          <input type="radio" name="state" value="0" required checked />
+        </label>
+        <label
+          >Female
+          <input type="radio" name="state" value="1" />
+        </label>
+      </fieldset>
 
       <label>
-        <span>Last name:</span>
-        <input
-          autofocus
-          type="text"
-          placeholder="Last name"
-          name="lastName"
-          required
-        />
+        <span>Are you adult?</span>
+        <input type="checkbox" name="isAdult" value="true" required />
       </label>
-
-      <label>
-        <span>Email:</span>
-        <input
-          type="email"
-          value="default@email.com"
-          placeholder="Email here"
-          name="email"
-          autocomplete="email"
-          required
-        />
-      </label>
-
-      <label>
-        <span>Password:</span>
-        <input
-          type="password"
-          placeholder="Password"
-          name="password"
-          autocomplete="new-password"
-          required
-        />
-      </label>
-
-      <p>Choose your state:</p>
-      <label>Male
-        <input type="radio" name="state" value="0" required/>
-      </label>
-      <label>Female
-        <input type="radio" name="state" value="1"/>
-      </label>
-
 
       <button type="submit">Submit form!</button>
     </form>
