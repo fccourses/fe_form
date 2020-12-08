@@ -84,28 +84,22 @@
       <fieldset>
         <legend>Select Your City</legend>
 
-        <select name="city">
-          <optgroup label="Ukraine">
-            <option value="Kiev">Киев</option>
-            <option value="Kiev">Киев</option>
-            <option value="Kiev">Киев</option>
-            <option value="Kiev">Киев</option>
-          </optgroup>
-          <optgroup label="Russia">
-            <option value="Moscow">Москва</option>
-            <option value="Moscow">Москва</option>
-            <option value="Moscow">Москва</option>
-            <option value="Moscow">Москва</option>
-          </optgroup>
-          <optgroup label="Belorussia">
-            <option value="Minsk">Минск</option>
-            <option value="Minsk">Минск</option>
-            <option value="Minsk">Минск</option>
-            <option value="Minsk">Минск</option>
-            <option value="Minsk">Минск</option>
-          </optgroup>
-       
-        </select>
+        <datalist id="city_list">
+          <option value="1">City</option>
+          <option value="1">City2</option>
+          <option value="1">City3</option>
+          <option value="1">City4</option>
+          <option value="1">City5</option>
+          <option value="1">City6</option>
+          <option value="1">City7</option>
+          <option value="1">City8</option>
+          <option value="1">City8</option>
+          <option value="Minsk">Minsk</option>
+          <option value="Ki">Kieb</option>
+          <option value="Mosc">Moscow</option>
+        </datalist>
+
+        <input type="text"name="city" list="city_list">
       </fieldset>
       <label>
         <span>Are you adult?</span>
