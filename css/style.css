@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input{
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border: 3px solid red;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+label {
+  display: flex;
+}
+
+label > input {
+  flex: 1;
+}

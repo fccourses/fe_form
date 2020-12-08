@@ -4,23 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
-    <form>
+    <form method="GET">
       <label>
-        CLICK ME!
-
-        <input autofocus 
-              type="text" 
-              placeholder="User Name" 
-              tabindex="0" />
+        <span>First name:</span>
+        <input
+          autofocus
+          type="text"
+          placeholder="First name"
+          name="firstName"
+          pattern="^[A-Z][a-z]{2,15}$"
+          required
+        />
       </label>
 
-      <input type="password" placeholder="Password" tabindex="1" />
+      <label>
+        <span>Last name:</span>
+        <input
+          autofocus
+          type="text"
+          placeholder="Last name"
+          name="lastName"
+          pattern="^[A-Z][a-z]{2,31}$"
+          required
+        />
+      </label>
 
-      <button type="submit" tabindex="0">Sign In</button>
+      <label>
+        <span>Email:</span>
+        <input type="email" placeholder="Email here" name="email" required />
+      </label>
+
+      <label>
+        <span>Password:</span>
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,32}"
+          required
+        />
+      </label>
+
+      <button type="submit">Submit form!</button>
     </form>
   </body>
 </html>
