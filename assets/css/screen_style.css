@@ -1,0 +1,35 @@
+h1 {
+  font-family: "Permanent";
+  font-weight: 400;
+  font-style: normal;
+
+  color: aquamarine;
+}
+
+h2 {
+  font-family: "Comic";
+  font-weight: 400;
+  font-style: normal;
+
+  color: teal;
+}
+
+h3 {
+  font-family: "Comic";
+  font-weight: 400;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Comic";
+  font-weight: 800;
+  font-style: normal;
+  color: red;
+}
+
+h5 {
+  font-family: "Comic";
+  font-weight: 300;
+  font-style: normal;
+  color: brown;
+}

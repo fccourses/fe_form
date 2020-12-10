@@ -1,36 +1,7 @@
 @import "./reset.css";
 @import "./fonts.css";
+@import "./printer_style.css" print;
+@import "./screen_style.css" screen;
+@import "./style_common.css" print, screen;
 
-* {
-  font-size: 40px;
-}
 
-h1 {
-  font-family: "Permanent";
-  font-weight: 400;
-  font-style: normal;
-}
-
-h2 {
-  font-family: "Comic";
-  font-weight: 400;
-  font-style: normal;
-}
-
-h3 {
-  font-family: "Comic";
-  font-weight: 400;
-  font-style: italic;
-}
-
-h4 {
-  font-family: "Comic";
-  font-weight: 800;
-  font-style: normal;
-}
-
-h5 {
-  font-family: "Comic";
-  font-weight: 300;
-  font-style: normal;
-}
