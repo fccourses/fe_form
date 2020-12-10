@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px; /* default font-size value  =  1rem */
+}
+
+ul {
+  font-size: 0px;
+}
+
+li {
+  display: inline-block;
+
+  font-size: 2rem;
+}
+
+span {
+}
