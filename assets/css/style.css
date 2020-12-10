@@ -1,6 +1,6 @@
 @import "./reset.css";
 @import "./fonts.css";
-@import "./printer_style.css" print;
+/* @import "./printer_style.css" print; */
 @import "./screen_style.css" screen;
 @import "./style_common.css" print, screen;
 
