@@ -1,0 +1,14 @@
+h1 {
+  font-size: 3rem;
+  color: teal;
+  margin: 150px 50px;
+}
+
+@media print {
+  h1 {
+    color: red;
+    font-size: 1rem;
+    margin: 0px;
+    border-bottom: 2px solid red;
+  }
+}
