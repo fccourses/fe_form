@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Permanent";
+  src: url("../fonts/Permanent/PermanentMarker-Regular.ttf") format("opentype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic";
+  src: url("../fonts/ComicNeue/ComicNeue-Regular.ttf") format("truetype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic";
+  src: url("../fonts/ComicNeue/ComicNeue-Bold.ttf") format("truetype");
+
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic";
+  src: url("../fonts/ComicNeue/ComicNeue-Light.ttf") format("truetype");
+
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic";
+  src: url("../fonts/ComicNeue/ComicNeue-Italic.ttf") format("truetype");
+
+  font-weight: 400;
+  font-style: italic;
+}
