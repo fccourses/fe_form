@@ -1,2 +1,12 @@
 @import "./fonts.css";
-@import "./header.css";
+@import "./reset.css";
+@import "./article.css";
+
+/* 
+xs	<576px [320,576)  -- small smartphones
+sm	≥576px [576,768)  -- medium smart
+md	≥768px [768,992)  -- tablets
+lg  ≥992px [992,1200) -- laptop
+xl	≥1200px[1200,1400)-- desktop narrow
+xxl	≥1400px[1400,)    -- desktop wide
+*/
