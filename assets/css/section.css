@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  background-color: #dedfe1;
+}
+
+* {
+  box-sizing: border-box;
+}

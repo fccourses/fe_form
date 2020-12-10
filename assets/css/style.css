@@ -1,6 +1,7 @@
 @import "./fonts.css";
 @import "./reset.css";
-@import "./article.css";
+@import "./section.css";
+@import "./user_card.css";
 
 /* 
 xs	<576px [320,576)  -- small smartphones
