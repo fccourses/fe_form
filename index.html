@@ -10,11 +10,18 @@
     <!-- <img src="./assets/images/4k.jpg" alt="image" /> -->
 
     <picture>
-      <source srcset="./assets/images/450px.jpg" media="(max-width:800px)" />
-      <source srcset="./assets/images/4k.jpg" media="(min-width:801px)"/>
+      <source
+        srcset="./assets/images/450px.webp"
+        type="image/webp"
+        media="(max-width:800px)"
+      />
+      <source
+        srcset="./assets/images/4k.webp"
+        type="image/webp"
+        media="(min-width:801px) and (min-resolution: 500dpi)"
+      />
 
       <img src="./assets/images/4k.jpg" alt="fallback" />
     </picture>
-    
   </body>
 </html>
