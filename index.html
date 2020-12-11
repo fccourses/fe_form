@@ -7,21 +7,10 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- <img src="./assets/images/4k.jpg" alt="image" /> -->
-
-    <picture>
-      <source
-        srcset="./assets/images/450px.webp"
-        type="image/webp"
-        media="(max-width:800px)"
-      />
-      <source
-        srcset="./assets/images/4k.webp"
-        type="image/webp"
-        media="(min-width:801px) and (min-resolution: 500dpi)"
-      />
-
-      <img src="./assets/images/4k.jpg" alt="fallback" />
-    </picture>
+    <div class="wrapper">
+      <div class="hack">
+        <img src="./assets/images/4k.jpg" alt="image" />
+      </div>
+    </div>
   </body>
 </html>
